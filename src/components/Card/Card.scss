@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Jura:wght@500&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 30em;
+  max-width: 100%;
+  background-color: white;
+  box-shadow: 0px 7px 10px #022b31;
+  border-radius: 12px;
+
+  &__rating {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    font-family: "Amatic SC", cursive;
+    font-family: "Jura", sans-serif;
+  }
+
+  img {
+    max-height: 123px;
+    width: 100%;
+    object-fit: contain;
+  }
+  button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+  }
+  &__price {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 10px 0;
+  }
+}

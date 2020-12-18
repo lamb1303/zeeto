@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &__info {
+    color: whitesmoke;
+  }
+  &__image {
+    width: 300px;
+  }
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    &__image {
+      width: 150px;
+    }
+  }
+}
