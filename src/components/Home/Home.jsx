@@ -73,7 +73,7 @@ const Home = () => {
             image={lap}
           />
         </div>
-        <div className="home__row">
+        <div style={{ padding: "20px" }} className="home__row">
           <Contact />
         </div>
         <div className="home__row">
